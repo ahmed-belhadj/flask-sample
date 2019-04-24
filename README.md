@@ -2,9 +2,9 @@
 
 This is a small web application built with Flask. 
 
-It only accepts a POST request to the route “/test” which accepts one argument “string_to_cut” returns a JSON object with the key “return_string” and a string containing every third letter from the original string. 
+It only accepts a POST request to the route `“/test”` which accepts one argument `“string_to_cut”` returns a JSON object with the key `“return_string”` and a string containing every third letter from the original string. 
 
-E.g. if you POST {"string_to_cut": "iamyourlyftdriver"}, it will return: {"return_string": "muydv"}. 
+E.g. if you POST `{"string_to_cut": "iamyourlyftdriver"}`, it will return: `{"return_string": "muydv"}`. 
 
 Install from Pipfile:
 ```shell
